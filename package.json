@@ -12,7 +12,9 @@
     "feather-icons": "^4.29.1",
     "vue": "^3.4.21",
     "vue-feather": "^2.0.0",
-    "vue-router": "^4.3.0"
+    "vue-router": "^4.3.0",
+    "vue3-lottie": "^3.3.0",
+    "vue3-marquee": "^4.2.0"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.0.4",

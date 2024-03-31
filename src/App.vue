@@ -1,11 +1,18 @@
 <template>
   <Header/>
-  <main class="py-5">
+  <main>
     <RouterView/>
   </main>
   <Footer/>
 </template>
 <script setup>
-import Footer from "./components/Footer.vue";
-import Header from "./components/Header.vue";
+import {defineAsyncComponent} from "vue";
+
+const Header = defineAsyncComponent(() =>
+    import("./components/Header.vue")
+)
+
+const Footer = defineAsyncComponent(() =>
+    import("./components/Footer.vue")
+)
 </script>

@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.text-shadow-black {
+    text-shadow: -1px -1px 0 #FFF,
+    1px -1px 0 #FFF,
+    -1px 1px 0 #FFF,
+    1px 1px 0 #FFF;
+}
+
+body:has(:not(.-translate-x-full)){
+    overflow: hidden;
+}
+
+body:has(.-translate-x-full){
+    overflow: auto;
+}
