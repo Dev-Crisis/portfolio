@@ -3,10 +3,10 @@
 @tailwind utilities;
 
 .text-shadow-black {
-    text-shadow: -1px -1px 0 #FFF,
-    1px -1px 0 #FFF,
-    -1px 1px 0 #FFF,
-    1px 1px 0 #FFF;
+    text-shadow: -1px -1px 0 rgb(203 213 225 / var(--tw-bg-opacity)),
+    1px -1px 0 rgb(203 213 225 / var(--tw-bg-opacity)),
+    -1px 1px 0 rgb(203 213 225 / var(--tw-bg-opacity)),
+    1px 1px 0 rgb(203 213 225 / var(--tw-bg-opacity));
 }
 
 body:has(:not(.-translate-x-full)){

@@ -64,7 +64,7 @@
     </div>
     <div class="lg:w-[50%] flex justify-center">
       <img src="https://i0.wp.com/wodandgo.com/wp-content/uploads/2022/11/Fond-Fonce.webp?resize=768%2C978&ssl=1" alt=""
-           class="w-96">
+           class="w-60 md:w-96">
     </div>
   </section>
 
@@ -76,7 +76,7 @@
       <img
           :src="Dittobask"
           alt=""
-          class="w-full lg:rounded">
+          class="w-full lg:rounded shadow-2xl">
     </div>
     <div class="lg:w-[45%] flex flex-col gap-3">
       <p class="text-xl lg:text-2xl p-2 md:p-0 text-center lg:text-left">Mon dernier projet personnel, baptisé
@@ -94,18 +94,27 @@
   </section>
 
   <!-- TODO: My skills -->
-  <section class="flex justify-center items-center flex-wrap p-4 md:p-10 gap-5 md:justify-between">
-    <div class="flex flex-col gap-4 md:gap-8 justify-center items-center lg:w-[45%] lg:items-start">
+  <section class="flex justify-center items-center flex-wrap gap-5 md:justify-between">
+    <div class="flex flex-col gap-4 md:gap-8 justify-center p-4 md:p-10 items-center lg:w-[45%] lg:items-start">
       <h2 class="text-4xl 2xl:text-5xl uppercase">My Skills</h2>
       <div class="lg:w-[96%] flex flex-col gap-3">
         <p class="text-xl lg:text-2xl p-2 md:p-0 text-center lg:text-left">
+          Un peu de blabla ici
         </p>
         <p class="text-xl lg:text-2xl p-2 md:p-0 text-center lg:text-left">
+          Un peu de blabla par là
         </p>
       </div>
     </div>
-    <Vue3Marquee class="flex px-5" duration="15">
-      <StackCard stackName="PHP"/>
+    <Vue3Marquee class="flex"  duration="30">
+      <StackCard stackName="Wordpress" stackDescription="C'est ma description du con !"/>
+      <StackCard stackName="VueJS" stackDescription="C'est ma description du con !"/>
+      <StackCard stackName="ReactJS" stackDescription="C'est ma description du con !"/>
+      <StackCard stackName="NextJS" stackDescription="C'est ma description du con !"/>
+      <StackCard stackName="Laravel" stackDescription="C'est ma description du con !"/>
+      <StackCard stackName="Symfony" stackDescription="C'est ma description du con !"/>
+      <StackCard stackName="Flutter" stackDescription="C'est ma description du con !"/>
+      <StackCard stackName="Kotlin" stackDescription="C'est ma description du con !"/>
     </Vue3Marquee>
   </section>
   <!-- TODO: My career path -->
@@ -135,7 +144,7 @@
     </div>
     <div class="lg:w-[50%] flex justify-center">
       <img src="https://i0.wp.com/wodandgo.com/wp-content/uploads/2022/11/Fond-Fonce.webp?resize=768%2C978&ssl=1" alt=""
-           class="w-96">
+           class="w-60 md:w-96">
     </div>
   </section>
 </template>
