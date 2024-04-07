@@ -1,9 +1,9 @@
 <template>
-  <footer class="p-4 sticky bg-slate-300 dark:bg-slate-800">
-    <div class="p-4 flex gap-3 flex-col justify-center items-center">
-      <h2 class="text-4xl sm:text-5xl md:text-6xl 2xl:text-8xl text-black uppercase text-shadow-black dark:text-shadow-white">
+  <footer class="sticky">
+    <div class="p-4 flex gap-3 flex-col justify-center items-center bg-slate-300 dark:bg-slate-800 w-full">
+      <h2 class="text-4xl sm:text-5xl md:text-6xl 2xl:text-6xl text-black uppercase text-shadow-black dark:text-shadow-white">
         Kevin Bardou</h2>
-      <h3 class="text-3xl md:text-4xl 2xl:text-5xl uppercase">Webmaster</h3>
+      <h3 class="text-3xl md:text-4xl 2xl:text-4xl uppercase">Webmaster</h3>
     </div>
     <nav class="p-4 bg-slate-300 dark:bg-slate-800">
       <ul class="flex flex-wrap justify-evenly items-center gap-10 mt-5">
@@ -28,8 +28,6 @@
         </li>
       </ul>
     </nav>
+    <div class="dark:bg-slate-900 bg-slate-400 p-4 text-center">© 2024 Made and Designed by Kevin Bardou</div>
   </footer>
 </template>
-<script setup>
-import Logo from '/logo.webp';
-</script>

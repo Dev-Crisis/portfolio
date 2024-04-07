@@ -1,10 +1,6 @@
 <script setup>
-
 import {ref} from "vue";
-
 let classMenu = ref("-translate-x-full");
-
-
 </script>
 <template>
   <nav class="hidden md:block p-4 sticky bg-slate-300 dark:bg-slate-800">
@@ -36,10 +32,10 @@ let classMenu = ref("-translate-x-full");
     <vue-feather type="menu"
                  class="fixed top-0 right-0 z-10 p-2 cursor-pointer bg-slate-300 dark:bg-slate-950 rounded-bl-2xl"
                  size="36" @click.passive="classMenu = '';"></vue-feather>
-    <ul class="pl-32 top-0 absolute z-10 bg-slate-300 dark:bg-slate-950 h-full flex flex-col justify-evenly items-start w-full transition-all duration-300"
+    <ul class="pl-32 top-0 fixed z-10 bg-slate-300 dark:bg-slate-950 h-full flex flex-col justify-evenly items-start w-full transition-all duration-300"
         :class="classMenu">
       <vue-feather type="x"
-                   class="absolute right-0 top-0 p-2 cursor-pointer bg-slate-300 dark:bg-slate-800 rounded-bl-2xl"
+                   class="fixed right-0 top-0 p-2 cursor-pointer bg-slate-300 dark:bg-slate-800 rounded-bl-2xl"
                    size="36"
                    @click.passive="classMenu = '-translate-x-full'"></vue-feather>
       <li>

@@ -6,13 +6,7 @@
   <Footer/>
 </template>
 <script setup>
-import {defineAsyncComponent} from "vue";
+import Header from "./components/Header.vue";
+import Footer from "./components/Footer.vue";
 
-const Header = defineAsyncComponent(() =>
-    import("./components/Header.vue")
-)
-
-const Footer = defineAsyncComponent(() =>
-    import("./components/Footer.vue")
-)
 </script>
