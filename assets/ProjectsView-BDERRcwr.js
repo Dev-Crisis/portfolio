@@ -1,1 +1,0 @@
-import{_ as t}from"./_plugin-vue_export-helper-DlAUqK2U.js";import{e as s,b as c,F as o,f as e}from"./index-j-krwaZ6.js";const r={},a=e("h1",{class:"uppercase text-4xl"},"Projects",-1),n=e("section",null,[e("h2",{class:"text-2xl uppercase"},"My Latest projects")],-1);function _(l,p){return c(),s(o,null,[a,n],64)}const m=t(r,[["render",_]]);export{m as default};
