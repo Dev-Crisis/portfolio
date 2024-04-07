@@ -1,5 +1,35 @@
 <template>
-  <footer class="p-4 sticky bg-slate-800">
-    <h3>FOOTER</h3>
+  <footer class="p-4 sticky bg-slate-300 dark:bg-slate-800">
+    <div class="p-4 flex gap-3 flex-col justify-center items-center">
+      <h2 class="text-4xl sm:text-5xl md:text-6xl 2xl:text-8xl text-black uppercase text-shadow-black dark:text-shadow-white">
+        Kevin Bardou</h2>
+      <h3 class="text-3xl md:text-4xl 2xl:text-5xl uppercase">Webmaster</h3>
+    </div>
+    <nav class="p-4 bg-slate-300 dark:bg-slate-800">
+      <ul class="flex flex-wrap justify-evenly items-center gap-10 mt-5">
+        <li>
+          <RouterLink to="/" class="uppercase font-bold" active-class="underline">Accueil</RouterLink>
+        </li>
+        <li>
+          <RouterLink to="/projects" class="uppercase font-bold" active-class="underline">Projets</RouterLink>
+        </li>
+        <li>
+          <RouterLink to="/about" class="uppercase font-bold" active-class="underline">A propos</RouterLink>
+        </li>
+        <li>
+          <div class="flex gap-5">
+            <a href="https://github.com/Dev-Crisis">
+              <vue-feather type="github"></vue-feather>
+            </a>
+            <a href="https://www.linkedin.com/in/k%C3%A9vin-bardou-17071a212/">
+              <vue-feather type="linkedin"></vue-feather>
+            </a>
+          </div>
+        </li>
+      </ul>
+    </nav>
   </footer>
 </template>
+<script setup>
+import Logo from '/logo.webp';
+</script>
