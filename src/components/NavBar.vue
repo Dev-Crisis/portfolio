@@ -1,26 +1,33 @@
 <script setup>
 import {ref} from "vue";
+
 let classMenu = ref("-translate-x-full");
 </script>
 <template>
   <nav class="hidden md:block p-4 sticky bg-slate-300 dark:bg-slate-800">
     <ul class="flex w-full justify-evenly items-center">
       <li>
-        <RouterLink to="/" class="uppercase text-lg font-bold" active-class="underline">Accueil</RouterLink>
-      </li>
-      <li>
-        <RouterLink to="/projects" class="uppercase text-lg font-bold" active-class="underline">Projets</RouterLink>
-      </li>
-      <li>
-        <RouterLink to="/about" class="uppercase text-lg font-bold" active-class="underline">A propos</RouterLink>
+        <div class="flex gap-8 items-center justify-center">
+          <RouterLink title="Accueil" to="/" class="uppercase text-lg font-bold" active-class="underline">Accueil
+          </RouterLink>
+          <RouterLink title="Projets" to="/projects" class="uppercase text-lg font-bold" active-class="underline">
+            Projets
+          </RouterLink>
+          <!--        <RouterLink title="A propos" to="/about" class="uppercase text-lg font-bold" active-class="underline">A propos-->
+          <!--        </RouterLink>-->
+        </div>
       </li>
       <li>
         <div class="flex items-center justify-center gap-5">
-          <a target="_blank" href="https://github.com/Dev-Crisis">
+          <a target="_blank" href="https://github.com/Dev-Crisis" title="Link to my Github">
             <vue-feather size="26" type="github"></vue-feather>
           </a>
-          <a target="_blank" href="https://www.linkedin.com/in/k%C3%A9vin-bardou-17071a212/">
+          <a target="_blank" href="https://www.linkedin.com/in/k%C3%A9vin-bardou-17071a212/"
+             title="Link to my LinkedIn">
             <vue-feather size="26" type="linkedin"></vue-feather>
+          </a>
+          <a title="Link to my Instagram" target="_blank" href="https://www.instagram.com/dev_crisis/?hl=fr">
+            <vue-feather size="26" type="instagram"></vue-feather>
           </a>
         </div>
       </li>
@@ -39,27 +46,34 @@ let classMenu = ref("-translate-x-full");
                    size="36"
                    @click.passive="classMenu = '-translate-x-full'"></vue-feather>
       <li>
-        <RouterLink to="/" class="uppercase text-3xl font-bold" @click.passive="classMenu = '-translate-x-full'"
-                    active-class="underline">Home
-        </RouterLink>
-      </li>
-      <li>
-        <RouterLink to="/projects" class="uppercase text-3xl font-bold" @click.passive="classMenu = '-translate-x-full'"
-                    active-class="underline">Projects
-        </RouterLink>
-      </li>
-      <li>
-        <RouterLink to="/about" class="uppercase text-3xl font-bold" @click.passive="classMenu = '-translate-x-full'"
-                    active-class="underline">About
-        </RouterLink>
+        <div class="flex gap-16 flex-col justify-center items-center">
+
+          <RouterLink title="Accueil" to="/" class="uppercase text-3xl font-bold"
+                      @click.passive="classMenu = '-translate-x-full'"
+                      active-class="underline">Accueil
+          </RouterLink>
+
+          <RouterLink title="Projets" to="/projects" class="uppercase text-3xl font-bold"
+                      @click.passive="classMenu = '-translate-x-full'"
+                      active-class="underline">Projets
+          </RouterLink>
+          <!--        <RouterLink title="A propos" to="/about" class="uppercase text-3xl font-bold"-->
+          <!--                    @click.passive="classMenu = '-translate-x-full'"-->
+          <!--                    active-class="underline">A Propos-->
+          <!--        </RouterLink>-->
+        </div>
       </li>
       <li>
         <div class="flex items-center justify-center gap-5">
-          <a target="_blank" href="https://github.com/Dev-Crisis">
+          <a title="Link to my Github" target="_blank" href="https://github.com/Dev-Crisis">
             <vue-feather type="github" size="36"></vue-feather>
           </a>
-          <a target="_blank" href="https://www.linkedin.com/in/k%C3%A9vin-bardou-17071a212/">
+          <a title="Link to my LinkedIn" target="_blank"
+             href="https://www.linkedin.com/in/k%C3%A9vin-bardou-17071a212/">
             <vue-feather type="linkedin" size="36"></vue-feather>
+          </a>
+          <a title="Link to my Instagram" target="_blank" href="https://www.instagram.com/dev_crisis/?hl=fr">
+            <vue-feather type="instagram" size="36"></vue-feather>
           </a>
         </div>
       </li>

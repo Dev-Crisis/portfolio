@@ -1,13 +1,14 @@
 <template>
-  <div class="m-4 w-[250px] h-[200px] bg-slate-300 dark:bg-slate-800 flex flex-col items-center justify-center gap-5 rounded-lg py-6">
-    <h3 class="font-bold text-2xl rounded-full bg-slate-800 dark:bg-slate-300 py-2 px-3 text-white dark:text-slate-950">
-      {{ stackName }}</h3>
-    <p class="text-slate-950 dark:text-white">{{ stackDescription }}</p>
+  <div class="w-[300px] lg:w-[500px] bg-slate-300 dark:bg-slate-800 rounded-2xl flex flex-col items-center justify-center gap-4">
+    <img :src="projectImagePath" :alt="projectName" class="rounded-t-2xl" width="100%">
+    <h4 class="text-2xl font-bold underline uppercase">{{projectName}}</h4>
+    <p class="text-center w-11/12">{{projectSummary}}</p>
+    <a target="_blank" class="uppercase font-bold py-2 px-4 bg-slate-300 dark:bg-slate-600 w-full text-center rounded-b-2xl transition-all hover:bg-slate-950" :href="projectLink">Voir</a>
   </div>
 </template>
 
 <script>
 export default {
-  props: ['stackName', 'stackDescription']
+  props: ['projectImagePath', 'projectName', 'projectSummary', 'projectLink']
 }
 </script>

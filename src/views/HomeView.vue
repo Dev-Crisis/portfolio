@@ -17,7 +17,7 @@
   <section
       class="flex justify-center items-center flex-wrap bg-slate-300 p-4 md:p-10 gap-5 dark:bg-slate-800 md:justify-between">
     <div class="flex flex-col gap-4 md:gap-8 justify-center items-center lg:w-[45%] lg:items-start">
-      <h2 class="text-4xl 2xl:text-5xl uppercase">Le savoir-être</h2>
+      <h2 class="text-4xl 2xl:text-5xl uppercase text-center">Compétences interpersonnelles</h2>
       <img
           :src="SoftSkills"
           alt=""
@@ -40,10 +40,10 @@
   </section>
 
   <!-- TODO: My last experience -->
-  <section class="flex justify-center items-center flex-wrap p-4 md:p-10 gap-5 md:justify-between">
+  <section class="flex justify-center items-center flex-wrap p-4 md:p-10 gap-5 lg:justify-between">
     <div class="flex flex-col gap-4 md:gap-8 justify-center items-center lg:w-[45%] lg:items-start">
       <h2 class="text-4xl 2xl:text-5xl uppercase text-center">Ma dernière experience</h2>
-      <div class="lg:w-[96%] flex flex-col gap-3">
+      <div class="lg:w-[96%] flex flex-col gap-3 justify-center items-center md:items-start">
         <p class="text-xl lg:text-2xl p-2 md:p-0 text-center lg:text-left">
           Pendant mon alternance chez Wodandgo, une entreprise spécialisée dans les accessoires de CrossFit, j'ai occupé
           le poste de webmaster, responsable du site e-commerce. Travaillant avec la stack Wordpress WooCommerce et
@@ -60,6 +60,10 @@
           l'entreprise
           dans l'industrie en plein essor du fitness et du CrossFit.
         </p>
+        <a target="_blank" href="https://wodandgo.com"
+           class="cursor-pointer mt-5 text-lg text-center bg-slate-400 dark:bg-slate-600 transition-all border-[3px] border-slate-300 dark:border-slate-600 uppercase rounded font-bold px-4 py-2 hover:border-slate-400 hover:bg-slate-400 hover:text-white dark:hover:border-slate-600 dark:hover:bg-slate-800">En
+          savoir plus
+        </a>
       </div>
     </div>
     <div class="lg:w-[50%] flex justify-center">
@@ -78,7 +82,7 @@
           alt=""
           class="w-full lg:rounded shadow-2xl">
     </div>
-    <div class="lg:w-[45%] flex flex-col gap-3">
+    <div class="lg:w-[45%] flex flex-col gap-3 justify-center items-center lg:items-start">
       <p class="text-xl lg:text-2xl p-2 md:p-0 text-center lg:text-left">Mon dernier projet personnel, baptisé
         Dittobask, est
         une simulation d'un site de NFT (tokens non fongibles) conçu dans un esprit d'exploration et d'apprentissage.
@@ -90,6 +94,8 @@
         notre projet. Dittobask incarne notre passion commune pour la technologie et l'art numérique, tout en nous
         offrant une précieuse opportunité d'explorer de nouveaux concepts et techniques dans le domaine en constante
         évolution des NFT.</p>
+      <a href="https://dev-crisis.github.io/dittobask/" class="mt-5 text-lg text-center bg-slate-400 dark:bg-slate-600 transition-all border-[3px] border-slate-300 dark:border-slate-600 uppercase rounded font-bold px-4 py-2 hover:border-slate-400 hover:bg-slate-400 hover:text-white dark:hover:border-slate-600 dark:hover:bg-slate-800">En savoir plus
+      </a>
     </div>
   </section>
 
@@ -115,7 +121,7 @@
       </div>
     </div>
     <div class="w-full lg:w-[45%] flex flex-col lg:gap-3">
-      <Vue3Marquee class="flex" pause-on-hover :duration="30">
+      <Vue3Marquee class="flex" pause-on-hover direction="reverse" :duration="30">
         <StackCard stackName="VueJS" stackDescription="C'est ma description du con !"/>
         <StackCard stackName="ReactJS" stackDescription="C'est ma description du con !"/>
         <StackCard stackName="NextJS" stackDescription="C'est ma description du con !"/>
@@ -129,10 +135,11 @@
       </Vue3Marquee>
     </div>
   </section>
+
   <!-- TODO: My career path -->
   <section
       class="flex justify-center items-center flex-wrap bg-slate-300 p-4 md:p-10 gap-5 dark:bg-slate-800 md:justify-between">
-    <div class="flex flex-col gap-4 md:gap-8 justify-center px-5 items-center lg:w-[45%] lg:items-start">
+    <div class="flex flex-col gap-4 md:gap-8 justify-center p-5 items-center lg:w-[45%] lg:items-start">
       <h2 class="text-4xl 2xl:text-5xl uppercase">Mon parcours</h2>
       <ol class="relative border-s border-gray-200 dark:border-gray-700">
         <li class="mb-10 ms-8">
@@ -196,7 +203,7 @@
   </section>
 
   <!-- TODO: My story -->
-  <section class="flex justify-center items-center flex-wrap p-4 md:p-10 gap-5 md:justify-between">
+  <section class="flex justify-center items-center flex-wrap p-4 md:p-10 gap-5 lg:justify-between">
     <div class="flex flex-col gap-4 md:gap-8 justify-center items-center lg:w-[45%] lg:items-start">
       <h2 class="text-4xl 2xl:text-5xl uppercase">Mon histoire</h2>
       <div class="lg:w-[96%] flex flex-col gap-3 items-center md:items-start justify-center">
@@ -215,16 +222,17 @@
           surmontés et sur les victoires remportées, cliquez maintenant pour plonger dans mon histoire inspirante et
           découvrir ce qui me rend véritablement passionné.
         </p>
-        <RouterLink to="/about"
-                    class="mt-5 text-lg text-center bg-slate-300 dark:bg-slate-800 transition-all border-[3px] border-slate-300 dark:border-slate-800 uppercase rounded font-bold px-4 py-2 hover:border-slate-300 hover:bg-slate-400 hover:text-white dark:hover:border-slate-800 dark:hover:bg-slate-950"
-                    active-class="underline">Mon Histoire
-        </RouterLink>
+<!--        <RouterLink to="/about"-->
+<!--                    class="mt-5 text-lg text-center bg-slate-300 dark:bg-slate-800 transition-all border-[3px] border-slate-300 dark:border-slate-800 uppercase rounded font-bold px-4 py-2 hover:border-slate-300 hover:bg-slate-400 hover:text-white dark:hover:border-slate-800 dark:hover:bg-slate-950"-->
+<!--                    active-class="underline">Mon Histoire-->
+<!--        </RouterLink>-->
       </div>
     </div>
     <div class="lg:w-[40%] flex justify-center">
       <Vue3Lottie no-margin :animationData="Story"/>
     </div>
   </section>
+
 </template>
 <script setup>
 import HeroBanner from '../assets/animations/hero-banner.json'
