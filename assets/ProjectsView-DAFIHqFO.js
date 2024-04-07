@@ -1,1 +1,0 @@
-import{_ as s,e as t,b as c,F as o,f as e}from"./index-3QDk0NEH.js";const a={},r=e("h1",{class:"uppercase text-4xl"},"Projects",-1),n=e("section",null,[e("h2",{class:"text-2xl uppercase"},"My Latest projects")],-1);function _(l,p){return c(),t(o,null,[r,n],64)}const i=s(a,[["render",_]]);export{i as default};
