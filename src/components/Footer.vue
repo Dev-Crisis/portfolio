@@ -16,7 +16,7 @@
             <!--          <RouterLink title="A propos" to="/about" class="uppercase font-bold" active-class="underline">A propos</RouterLink>-->
           </div>
         </li>
-        <li class="border-t-2 border-slate-950 md:border-none w-full md:w-auto flex justify-center p-4">
+        <li class="border-t-2 border-slate-300 md:border-none w-full md:w-auto flex justify-center p-4">
           <div class="flex gap-5">
             <a title="Link to my Github" target="_blank" href="https://github.com/Dev-Crisis">
               <vue-feather type="github"></vue-feather>

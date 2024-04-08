@@ -1,6 +1,22 @@
 <script setup>
 import {ref} from "vue";
 
+/*    <form
+action="https://formspree.io/f/mzbnkeny"
+method="POST"
+    >
+    <label>
+    Your email:
+    <input type="email" name="email">
+    </label>
+<label>
+  Your message:
+  <textarea name="message"></textarea>
+</label>
+<!-- your other form fields go here -->
+<button type="submit">Send</button>
+</form> */
+
 let classMenu = ref("-translate-x-full");
 </script>
 <template>
@@ -37,12 +53,12 @@ let classMenu = ref("-translate-x-full");
 
   <nav class="md:hidden flex justify-end items-center">
     <vue-feather type="menu"
-                 class="fixed top-0 right-0 z-10 p-2 cursor-pointer bg-slate-300 dark:bg-slate-950 rounded-bl-2xl"
+                 class="fixed top-0 right-0 z-10 p-2 cursor-pointer bg-slate-300 dark:bg-slate-950 rounded-bl-2xl border-b-2 border-l-2 dark:border-slate-300"
                  size="36" @click.passive="classMenu = '';"></vue-feather>
     <ul class="pl-32 top-0 fixed z-10 bg-slate-300 dark:bg-slate-950 h-full flex flex-col justify-evenly items-start w-full transition-all duration-300"
         :class="classMenu">
       <vue-feather type="x"
-                   class="fixed right-0 top-0 p-2 cursor-pointer bg-slate-300 dark:bg-slate-800 rounded-bl-2xl"
+                   class="fixed right-0 top-0 p-2 cursor-pointer bg-slate-300 dark:bg-slate-950 rounded-bl-2xl border-b-2 border-l-2 dark:border-slate-300"
                    size="36"
                    @click.passive="classMenu = '-translate-x-full'"></vue-feather>
       <li>

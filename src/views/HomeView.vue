@@ -23,15 +23,15 @@
           alt=""
           class="w-full lg:rounded">
     </div>
-    <div class="lg:w-[45%] flex flex-col gap-3">
-      <p class="text-xl lg:text-2xl p-2 md:p-0 text-center lg:text-left">
+    <div class="lg:w-[45%] flex flex-col gap-3 py-2">
+      <p class="text-xl lg:text-2xl md:p-0 text-left">
         Les soft skills d'un développeur sont tout aussi cruciales que ses compétences techniques. La capacité de
         communication efficace est essentielle pour collaborer avec d'autres membres de l'équipe et comprendre les
         besoins des utilisateurs. La pensée critique et la résolution de problèmes permettent au développeur de trouver
         des solutions innovantes et efficaces aux défis rencontrés dans le processus de développement. L'adaptabilité
         est également importante, car le paysage technologique évolue rapidement, nécessitant une capacité à apprendre
         de nouvelles technologies et à s'adapter à de nouveaux environnements de travail. </p>
-      <p class="text-xl lg:text-2xl p-2 md:p-0 text-center lg:text-left">En outre, l'empathie est un
+      <p class="text-xl lg:text-2xl md:p-0 text-left">En outre, l'empathie est un
         atout précieux pour comprendre les besoins des utilisateurs finaux et concevoir des solutions qui répondent
         véritablement à leurs besoins. Enfin, la capacité à travailler en équipe et à collaborer efficacement favorise
         un environnement de travail positif et productif, où les idées sont partagées et développées de manière
@@ -43,8 +43,8 @@
   <section class="flex justify-center items-center flex-wrap p-4 md:p-10 gap-5 lg:justify-between">
     <div class="flex flex-col gap-4 md:gap-8 justify-center items-center lg:w-[45%] lg:items-start">
       <h2 class="text-4xl 2xl:text-5xl uppercase text-center">Ma dernière experience</h2>
-      <div class="lg:w-[96%] flex flex-col gap-3 justify-center items-center md:items-start">
-        <p class="text-xl lg:text-2xl p-2 md:p-0 text-center lg:text-left">
+      <div class="lg:w-[96%] flex flex-col py-2 gap-3 justify-center items-center md:items-start">
+        <p class="text-xl lg:text-2xl md:p-0 text-left">
           Pendant mon alternance chez Wodandgo, une entreprise spécialisée dans les accessoires de CrossFit, j'ai occupé
           le poste de webmaster, responsable du site e-commerce. Travaillant avec la stack Wordpress WooCommerce et
           Elementor, j'ai pu appliquer mes compétences techniques pour soutenir l'expansion de l'entreprise sur le
@@ -52,7 +52,7 @@
           en ligne. En tant que webmaster, j'étais chargé de maintenir le site web, de créer et de gérer du contenu,
           ainsi
           que d'optimiser l'expérience utilisateur pour assurer des transactions fluides et sécurisées.</p>
-        <p class="text-xl lg:text-2xl p-2 md:p-0 text-center lg:text-left"> Cette expérience
+        <p class="text-xl lg:text-2xl md:p-0 text-left"> Cette expérience
           m'a permis d'acquérir une grande attention aux détails et une compréhension approfondie des besoins des
           clients
           dans le domaine du CrossFit. Travailler chez Wodandgo m'a offert une opportunité unique d'apprendre de manière
@@ -82,14 +82,14 @@
           alt=""
           class="w-full lg:rounded shadow-2xl">
     </div>
-    <div class="lg:w-[45%] flex flex-col gap-3 justify-center items-center lg:items-start">
-      <p class="text-xl lg:text-2xl p-2 md:p-0 text-center lg:text-left">Mon dernier projet personnel, baptisé
+    <div class="lg:w-[45%] flex flex-col gap-3 py-2 justify-center items-center lg:items-start">
+      <p class="text-xl lg:text-2xl md:p-0 text-left">Mon dernier projet personnel, baptisé
         Dittobask, est
         une simulation d'un site de NFT (tokens non fongibles) conçu dans un esprit d'exploration et d'apprentissage.
         Réalisé en HTML et stylisé avec Tailwind CSS, ce projet représente une fusion entre la technologie web et l'art
         numérique. Travaillant en collaboration avec un ami designer basé à Montpellier, nous avons développé ensemble
         une interface immersive et esthétique qui met en valeur les NFT proposés sur la plateforme.</p>
-      <p class="text-xl lg:text-2xl p-2 md:p-0 text-center lg:text-left">Le serveur de développement, créé avec Vite,
+      <p class="text-xl lg:text-2xl md:p-0 text-left">Le serveur de développement, créé avec Vite,
         offre une expérience de développement fluide et efficace, me permettant de tester et d'itérer rapidement sur
         notre projet. Dittobask incarne notre passion commune pour la technologie et l'art numérique, tout en nous
         offrant une précieuse opportunité d'explorer de nouveaux concepts et techniques dans le domaine en constante
@@ -102,9 +102,9 @@
   <!-- TODO: My skills -->
   <section class="flex justify-center items-center flex-wrap py-2 gap-5 md:justify-between">
     <div class="flex flex-col gap-4 md:gap-8 justify-center p-4 md:p-10 items-center lg:w-[45%] lg:items-start">
-      <h2 class="text-4xl 2xl:text-5xl uppercase">Mes compétences</h2>
-      <div class="flex flex-col gap-3">
-        <p class="text-xl lg:text-2xl p-2 md:p-0 text-center lg:text-left">
+      <h2 class="text-4xl 2xl:text-5xl uppercase text-center">Mes compétences</h2>
+      <div class="flex flex-col gap-3 py-2">
+        <p class="text-xl lg:text-2xl md:p-0 text-left">
 
           En ce qui concerne mes compétences en développement web, je suis à l'aise avec PHP et je maîtrise les
           frameworks WordPress, Laravel et Symfony. J'ai également une solide compréhension de la programmation orientée
@@ -112,7 +112,7 @@
           développement JavaScript, je suis compétent avec les frameworks React, Vue.js et Next.js, ce qui me permet de
           créer des interfaces utilisateur dynamiques et interactives.
         </p>
-        <p class="text-xl lg:text-2xl p-2 md:p-0 text-center lg:text-left">
+        <p class="text-xl lg:text-2xl md:p-0 text-left">
           En ce qui concerne le développement
           d'applications mobiles, j'ai une expérience pratique avec Kotlin pour Android et Flutter, ce qui me permet de
           développer des applications performantes et multiplateformes. Mon éventail de compétences diversifié dans le
@@ -140,7 +140,7 @@
   <section
       class="flex justify-center items-center flex-wrap bg-slate-300 p-4 md:p-10 gap-5 dark:bg-slate-800 md:justify-between">
     <div class="flex flex-col gap-4 md:gap-8 justify-center p-5 items-center lg:w-[45%] lg:items-start">
-      <h2 class="text-4xl 2xl:text-5xl uppercase">Mon parcours</h2>
+      <h2 class="text-4xl 2xl:text-5xl uppercase text-center">Mon parcours</h2>
       <ol class="relative border-s border-gray-200 dark:border-gray-700">
         <li class="mb-10 ms-8">
         <span
@@ -184,15 +184,15 @@
         </li>
       </ol>
     </div>
-    <div class="lg:w-[45%] flex flex-col gap-3">
-      <p class="text-xl lg:text-2xl p-2 md:p-0 text-center lg:text-left">
+    <div class="lg:w-[45%] flex flex-col gap-3 py-2">
+      <p class="text-xl lg:text-2xl md:p-0 text-left">
         Mon parcours étudiant a débuté au lycée Pablo Picasso de Perpignan après avoir terminé le collège. C'est là que
         j'ai découvert ma passion pour l'informatique, en particulier la programmation web, lorsque j'ai intégré une
         option appelée Systèmes Informatiques Numériques en seconde. Au fil des années jusqu'à ma terminale, j'ai
         exploré la programmation en Python et me suis de plus en plus plongé dans le développement web, en apprenant le
         HTML, le CSS et ensuite le JavaScript. Après l'obtention de mon baccalauréat, j'ai découvert que l'IDEM avait
         ouvert une branche dans le domaine de la programmation. </p>
-      <p class="text-xl lg:text-2xl p-2 md:p-0 text-center lg:text-left">J'ai donc décidé de m'inscrire aux tests
+      <p class="text-xl lg:text-2xl md:p-0 text-left">J'ai donc décidé de m'inscrire aux tests
         d'entrée et
         suis devenu étudiant à l'IDEM dans la section Projet Professionnel. Après avoir obtenu ma certification de
         compétences, j'ai poursuivi mes études en me lançant dans la section CDA2 (Concepteur / Développeur
@@ -205,9 +205,9 @@
   <!-- TODO: My story -->
   <section class="flex justify-center items-center flex-wrap p-4 md:p-10 gap-5 lg:justify-between">
     <div class="flex flex-col gap-4 md:gap-8 justify-center items-center lg:w-[45%] lg:items-start">
-      <h2 class="text-4xl 2xl:text-5xl uppercase">Mon histoire</h2>
-      <div class="lg:w-[96%] flex flex-col gap-3 items-center md:items-start justify-center">
-        <p class="text-xl lg:text-2xl p-2 md:p-0 text-center lg:text-left">
+      <h2 class="text-4xl 2xl:text-5xl uppercase text-center">Mon histoire</h2>
+      <div class="lg:w-[96%] flex flex-col gap-3 items-center md:items-start justify-center py-2">
+        <p class="text-xl lg:text-2xl md:p-0 text-left">
           Envie de découvrir les coulisses de mon cheminement dans le développement web ? Depuis mes premiers pas au
           lycée jusqu'à mes ambitions professionnelles, mon histoire est un mélange captivant d'apprentissage,
           d'exploration et de détermination. Chaque étape, du lycée Pablo Picasso à mon passage à l'IDEM, a été une
@@ -217,7 +217,7 @@
           ma passion dans la création d'interfaces interactives et innovantes, une passion qui continue de me motiver
           chaque jour.
         </p>
-        <p class="text-xl lg:text-2xl p-2 md:p-0 text-center lg:text-left">
+        <p class="text-xl lg:text-2xl md:p-0 text-left">
           Alors, si vous voulez en savoir plus sur les hauts et les bas de mon parcours, sur les défis
           surmontés et sur les victoires remportées, cliquez maintenant pour plonger dans mon histoire inspirante et
           découvrir ce qui me rend véritablement passionné.
