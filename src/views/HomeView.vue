@@ -20,7 +20,7 @@
       <h2 class="text-4xl 2xl:text-5xl uppercase text-center">Compétences interpersonnelles</h2>
       <img
           :src="SoftSkills"
-          alt=""
+          alt="Image d'exemple de cohésion d'équipe"
           class="w-full lg:rounded">
     </div>
     <div class="lg:w-[45%] flex flex-col gap-3 py-2">
@@ -61,13 +61,13 @@
           dans l'industrie en plein essor du fitness et du CrossFit.
         </p>
         <a target="_blank" href="https://wodandgo.com"
-           class="cursor-pointer mt-5 text-lg text-center bg-slate-400 dark:bg-slate-600 transition-all border-[3px] border-slate-300 dark:border-slate-600 uppercase rounded font-bold px-4 py-2 hover:border-slate-400 hover:bg-slate-400 hover:text-white dark:hover:border-slate-600 dark:hover:bg-slate-800">En
+           class="cursor-pointer mt-5 text-lg text-center bg-slate-400 dark:bg-slate-600 transition-all border-[3px] border-slate-300 dark:border-slate-600 uppercase rounded font-bold px-4 py-2 hover:border-slate-400 hover:bg-slate-400 hover:text-white dark:hover:border-slate-600 dark:hover:bg-slate-950">En
           savoir plus
         </a>
       </div>
     </div>
     <div class="lg:w-[50%] flex justify-center">
-      <img :src="Wodandgo" alt=""
+      <img :src="Wodandgo" alt="Logo Wodandgo" loading="lazy"
            class="w-60 md:w-96">
     </div>
   </section>
@@ -79,7 +79,8 @@
       <h2 class="text-4xl 2xl:text-5xl uppercase text-center">Mon dernier projet</h2>
       <img
           :src="Dittobask"
-          alt=""
+          alt="Image de mon dernier projet personnel en date Dittobask"
+          loading="lazy"
           class="w-full lg:rounded shadow-2xl">
     </div>
     <div class="lg:w-[45%] flex flex-col gap-3 py-2 justify-center items-center lg:items-start">
@@ -94,7 +95,9 @@
         notre projet. Dittobask incarne notre passion commune pour la technologie et l'art numérique, tout en nous
         offrant une précieuse opportunité d'explorer de nouveaux concepts et techniques dans le domaine en constante
         évolution des NFT.</p>
-      <a href="https://dev-crisis.github.io/dittobask/" class="mt-5 text-lg text-center bg-slate-400 dark:bg-slate-600 transition-all border-[3px] border-slate-300 dark:border-slate-600 uppercase rounded font-bold px-4 py-2 hover:border-slate-400 hover:bg-slate-400 hover:text-white dark:hover:border-slate-600 dark:hover:bg-slate-800">En savoir plus
+      <a href="https://dev-crisis.github.io/dittobask/"
+         class="mt-5 text-lg text-center bg-slate-400 dark:bg-slate-600 transition-all border-[3px] border-slate-300 dark:border-slate-600 uppercase rounded font-bold px-4 py-2 hover:border-slate-400 hover:bg-slate-400 hover:text-white dark:hover:border-slate-600 dark:hover:bg-slate-800">En
+        savoir plus
       </a>
     </div>
   </section>
@@ -222,10 +225,10 @@
           surmontés et sur les victoires remportées, cliquez maintenant pour plonger dans mon histoire inspirante et
           découvrir ce qui me rend véritablement passionné.
         </p>
-<!--        <RouterLink to="/about"-->
-<!--                    class="mt-5 text-lg text-center bg-slate-300 dark:bg-slate-800 transition-all border-[3px] border-slate-300 dark:border-slate-800 uppercase rounded font-bold px-4 py-2 hover:border-slate-300 hover:bg-slate-400 hover:text-white dark:hover:border-slate-800 dark:hover:bg-slate-950"-->
-<!--                    active-class="underline">Mon Histoire-->
-<!--        </RouterLink>-->
+        <RouterLink to="/about"
+                    class="mt-5 text-lg text-center bg-slate-300 dark:bg-slate-800 transition-all border-[3px] border-slate-300 dark:border-slate-800 uppercase rounded font-bold px-4 py-2 hover:border-slate-300 hover:bg-slate-400 hover:text-white dark:hover:border-slate-800 dark:hover:bg-slate-950"
+                    active-class="underline">Mon Histoire
+        </RouterLink>
       </div>
     </div>
     <div class="lg:w-[40%] flex justify-center">

@@ -1,22 +1,6 @@
 <script setup>
 import {ref} from "vue";
 
-/*    <form
-action="https://formspree.io/f/mzbnkeny"
-method="POST"
-    >
-    <label>
-    Your email:
-    <input type="email" name="email">
-    </label>
-<label>
-  Your message:
-  <textarea name="message"></textarea>
-</label>
-<!-- your other form fields go here -->
-<button type="submit">Send</button>
-</form> */
-
 let classMenu = ref("-translate-x-full");
 </script>
 <template>
@@ -24,26 +8,28 @@ let classMenu = ref("-translate-x-full");
     <ul class="flex w-full justify-evenly items-center">
       <li>
         <div class="flex gap-8 items-center justify-center">
-          <RouterLink title="Accueil" to="/" class="uppercase text-lg font-bold" active-class="underline">Accueil
+          <RouterLink title="Accueil" to="/" class="uppercase text-lg font-bold hover:text-slate-400" active-class="underline text-slate-400">Accueil
           </RouterLink>
-          <RouterLink title="Projets" to="/projects" class="uppercase text-lg font-bold" active-class="underline">
+          <RouterLink title="Projets" to="/projects" class="uppercase text-lg font-bold hover:text-slate-400" active-class="underline text-slate-400">
             Projets
           </RouterLink>
-          <!--        <RouterLink title="A propos" to="/about" class="uppercase text-lg font-bold" active-class="underline">A propos-->
-          <!--        </RouterLink>-->
+          <RouterLink title="A propos" to="/about" class="uppercase text-lg font-bold hover:text-slate-400" active-class="underline text-slate-400">A propos
+          </RouterLink>
+          <RouterLink title="Contact" to="/contact" class="uppercase text-lg font-bold hover:text-slate-400" active-class="underline text-slate-400">Contact
+          </RouterLink>
         </div>
       </li>
       <li>
         <div class="flex items-center justify-center gap-5">
           <a target="_blank" href="https://github.com/Dev-Crisis" title="Link to my Github">
-            <vue-feather size="26" type="github"></vue-feather>
+            <vue-feather size="26" class="hover:-translate-y-1 transition-all hover:text-slate-400" type="github"></vue-feather>
           </a>
           <a target="_blank" href="https://www.linkedin.com/in/k%C3%A9vin-bardou-17071a212/"
              title="Link to my LinkedIn">
-            <vue-feather size="26" type="linkedin"></vue-feather>
+            <vue-feather class="hover:-translate-y-1 transition-all hover:text-slate-400" size="26" type="linkedin"></vue-feather>
           </a>
           <a title="Link to my Instagram" target="_blank" href="https://www.instagram.com/dev_crisis/?hl=fr">
-            <vue-feather size="26" type="instagram"></vue-feather>
+            <vue-feather class="hover:-translate-y-1 transition-all hover:text-slate-400" size="26" type="instagram"></vue-feather>
           </a>
         </div>
       </li>
@@ -62,34 +48,34 @@ let classMenu = ref("-translate-x-full");
                    size="36"
                    @click.passive="classMenu = '-translate-x-full'"></vue-feather>
       <li>
-        <div class="flex gap-16 flex-col justify-center items-center">
+        <div class="flex gap-16 flex-col justify-center items-start">
 
-          <RouterLink title="Accueil" to="/" class="uppercase text-3xl font-bold"
-                      @click.passive="classMenu = '-translate-x-full'"
-                      active-class="underline">Accueil
+          <RouterLink title="Accueil" to="/" class="uppercase text-3xl font-bold hover:text-slate-400" active-class="underline text-slate-400"
+                      @click.passive="classMenu = '-translate-x-full'">Accueil
           </RouterLink>
 
-          <RouterLink title="Projets" to="/projects" class="uppercase text-3xl font-bold"
-                      @click.passive="classMenu = '-translate-x-full'"
-                      active-class="underline">Projets
+          <RouterLink title="Projets" to="/projects" class="uppercase text-3xl font-bold hover:text-slate-400" active-class="underline text-slate-400"
+                      @click.passive="classMenu = '-translate-x-full'">Projets
           </RouterLink>
-          <!--        <RouterLink title="A propos" to="/about" class="uppercase text-3xl font-bold"-->
-          <!--                    @click.passive="classMenu = '-translate-x-full'"-->
-          <!--                    active-class="underline">A Propos-->
-          <!--        </RouterLink>-->
+          <RouterLink title="A propos" to="/about" class="uppercase text-3xl font-bold hover:text-slate-400" active-class="underline text-slate-400"
+                      @click.passive="classMenu = '-translate-x-full'">A Propos
+          </RouterLink>
+          <RouterLink title="Contact" to="/contact" class="uppercase text-3xl font-bold hover:text-slate-400" active-class="underline text-slate-400"
+                      @click.passive="classMenu = '-translate-x-full'">Contact
+          </RouterLink>
         </div>
       </li>
       <li>
         <div class="flex items-center justify-center gap-5">
           <a title="Link to my Github" target="_blank" href="https://github.com/Dev-Crisis">
-            <vue-feather type="github" size="36"></vue-feather>
+            <vue-feather type="github" class="hover:-translate-y-1 transition-all hover:text-slate-400" size="36"></vue-feather>
           </a>
           <a title="Link to my LinkedIn" target="_blank"
              href="https://www.linkedin.com/in/k%C3%A9vin-bardou-17071a212/">
-            <vue-feather type="linkedin" size="36"></vue-feather>
+            <vue-feather type="linkedin" class="hover:-translate-y-1 transition-all hover:text-slate-400" size="36"></vue-feather>
           </a>
           <a title="Link to my Instagram" target="_blank" href="https://www.instagram.com/dev_crisis/?hl=fr">
-            <vue-feather type="instagram" size="36"></vue-feather>
+            <vue-feather type="instagram" class="hover:-translate-y-1 transition-all hover:text-slate-400" size="36"></vue-feather>
           </a>
         </div>
       </li>
