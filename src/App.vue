@@ -17,6 +17,6 @@ import StudentPath from "./components/StudentPath.vue";
 
 export default defineComponent({
   components: {StudentPath, Header, Skills, HeroBanner, Projects, About}
-})
+});
 
 </script>

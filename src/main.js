@@ -30,6 +30,6 @@ carousels.forEach(carousel => {
 const menuBtn = document.getElementById('menu-btn');
 const mobileMenu = document.getElementById('mobile-menu');
 
-menuBtn.addEventListener('click', () => {
+menuBtn.addEventListener('click', (e) => {
     mobileMenu.classList.toggle('hidden');
 });

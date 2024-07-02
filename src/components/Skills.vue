@@ -16,8 +16,8 @@
             <div class="carousel-item bg-white p-6 rounded shadow-md fade-in">HTML</div>
             <div class="carousel-item bg-white p-6 rounded shadow-md fade-in">CSS</div>
             <div class="carousel-item bg-white p-6 rounded shadow-md fade-in">JavaScript</div>
-            <div class="carousel-item bg-white p-6 rounded shadow-md fade-in">React</div>
-            <div class="carousel-item bg-white p-6 rounded shadow-md fade-in">Vue</div>
+            <div class="carousel-item bg-white p-6 rounded shadow-md fade-in">React.js</div>
+            <div class="carousel-item bg-white p-6 rounded shadow-md fade-in">Vue.js</div>
             <div class="carousel-item bg-white p-6 rounded shadow-md fade-in">Laravel</div>
             <div class="carousel-item bg-white p-6 rounded shadow-md fade-in">Symfony</div>
             <div class="carousel-item bg-white p-6 rounded shadow-md fade-in">WordPress</div>
