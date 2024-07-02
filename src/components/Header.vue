@@ -4,11 +4,10 @@
 
 <template>
   <!-- Header -->
-  <header class="bg-white shadow-md fade-in">
+  <header class="bg-white shadow-md fade-in w-full z-10">
     <div class="container mx-auto px-6 py-4 flex justify-between items-center">
-      <div class="text-2xl font-bold">Kevin Bardou</div>
+      <a href="#hero" class="text-2xl font-bold">Kevin Bardou</a>
       <nav class="hidden md:flex">
-        <a href="#hero" class="text-gray-700 hover:text-blue-500 mx-3 text-lg">Accueil</a>
         <a href="#skills" class="text-gray-700 hover:text-blue-500 mx-3 text-lg">Compétences</a>
         <a href="#projects" class="text-gray-700 hover:text-blue-500 mx-3 text-lg">Projets</a>
         <a href="#student-path" class="text-gray-700 hover:text-blue-500 mx-3 text-lg">Parcours Etudiant</a>
@@ -23,7 +22,6 @@
       </div>
     </div>
     <div id="mobile-menu" class="md:hidden hidden fade-in">
-      <a href="#hero" class="block text-gray-700 hover:text-blue-500 px-6 py-2">Accueil</a>
       <a href="#skills" class="block text-gray-700 hover:text-blue-500 px-6 py-2">Compétences</a>
       <a href="#projects" class="block text-gray-700 hover:text-blue-500 px-6 py-2">Projets</a>
       <a href="#student-path" class="block text-gray-700 hover:text-blue-500 px-6 py-2">Parcours Etudiant</a>

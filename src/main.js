@@ -33,3 +33,7 @@ const mobileMenu = document.getElementById('mobile-menu');
 menuBtn.addEventListener('click', (e) => {
     mobileMenu.classList.toggle('hidden');
 });
+
+window.onscroll = () => {
+    window.scrollY > 1 ? document.querySelector("header").classList.add("fixed") : document.querySelector("header").classList.remove("fixed");
+}
