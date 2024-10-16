@@ -1,14 +1,39 @@
 import { createApp } from 'vue'
 import './style.css'
-import router from './router'
 import App from './App.vue'
-import VueFeather from 'vue-feather'
-import Vue3Lottie from 'vue3-lottie'
-router.beforeEach((to, from, next) => {
-    document.title =
-        to.meta.title + " | Portfolio" || "Portfolio";
 
-    next();
+createApp(App).mount('#app')
+
+// Implementing simple carousel functionality
+const carousels = document.querySelectorAll('.carousel');
+carousels.forEach(carousel => {
+    let items = carousel.querySelectorAll('.carousel-item');
+    let index = 0;
+
+    function showItem() {
+        items.forEach((item, i) => {
+            item.classList.add('hidden');
+            if (i === index) item.classList.remove('hidden');
+        });
+    }
+
+    showItem();
+
+    // Ajout d'un interval pour changer automatiquement chaque seconde
+    setInterval(() => {
+        index = (index + 1) % items.length;
+        showItem();
+    }, 4500); // 1000ms = 1 seconde
 });
 
-createApp(App).component(VueFeather.name, VueFeather).use(router).use(Vue3Lottie).mount('#app')
+// Mobile menu toggle
+const menuBtn = document.getElementById('menu-btn');
+const mobileMenu = document.getElementById('mobile-menu');
+
+menuBtn.addEventListener('click', (e) => {
+    mobileMenu.classList.toggle('hidden');
+});
+
+window.onscroll = () => {
+    window.scrollY > 1 ? document.querySelector("header").classList.add("fixed") : document.querySelector("header").classList.remove("fixed");
+}
