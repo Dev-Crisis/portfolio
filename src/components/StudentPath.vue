@@ -4,9 +4,9 @@ import Modale from "./Modale.vue";
 import {ref} from "vue";
 
 const projects = [
-  {dates: "2023 - Présent", description: "D3", excerpt: "Alternant Webmaster", name: "Alternance : Concepteur / Développeur d'applications", url: "https://wodandgo.com", company: "Wodandgo"},
-  {dates: "2022 - 2023", description: "D2", excerpt: "Alternant Développeur FullStack", name: "Alternance : Concepteur / Développeur d'applications", url: "https://www.comelse.com/", company: "Comelse"},
-  {dates: "2018 - 2021", description: "D1", excerpt: "Baccalauréat STI2D", name: "Baccalauréat STI2D", url: null, company: "Lycée Pablo Picasso"},
+  {dates: "2023 - Présent", description: "En alternance chez Wodandgo une marque d'accessoires de CrossFit, j'ai pu réaliser le rebranding de la marque, ainsi que la mise à jour du contenu et la maintenance du WordPress, Woocommerce mis en place.", excerpt: "Alternant Webmaster", name: "Alternance : Concepteur / Développeur d'applications", url: "https://wodandgo.com", company: "Wodandgo"},
+  {dates: "2022 - 2023", description: "En alternance chez Comelse une agence web, j'ai pu créer des sites et des applications de A à Z avec des technologies modernes tels que Laravel, React ou encore Kotlin.", excerpt: "Alternant Développeur FullStack", name: "Alternance : Concepteur / Développeur d'applications", url: "https://www.comelse.com/", company: "Comelse"},
+  {dates: "2018 - 2021", description: "Pendant mes études au lycée, j'ai découvert l'univers de la programmation web et j'ai été très curieux d'en apprendre plus sur ce sujet, mes débuts ont été difficile avec le HTML et le CSS, mais cela m'a poussé à chercher par moi-même.", excerpt: "Baccalauréat STI2D", name: "Baccalauréat STI2D", url: null, company: "Lycée Pablo Picasso"},
 ];
 
 

@@ -1,10 +1,13 @@
 <script setup>
 
 const projects = [
-    {name: 'Dittobask', preview: "/src/assets/dittobask.webp",excerpt: 'Un project Vue.js Tailwind + un Designer', url: "https://dev-crisis.github.io/dittobask/", description: "Ce projet a été inspirer par le mouvement des NFT, une idée d'un ami Designer/Graphiste qui a vue le jour après une conception et un petit mois de travail avec une stack : Vue.js + Tailwindcss.", alt: "Dittobask Projet NFT"}
+    {name: 'Cyber', preview: Cyber,excerpt: 'Un project React.js Tailwind (ce projet est en cours de modification)', url: "https://dev-crisis.github.io/cyber/", description: "Ce projet (en cours de modification) a été inspiré par l'envie d'utiliser un api e-commerce et de me challenger sur React la stack est constituée de : React.js + Tailwindcss.", alt: "Cyber Projet Digital"},
+    {name: 'Dittobask', preview: Dittobask,excerpt: 'Un project Vue.js Tailwind + un Designer', url: "https://dev-crisis.github.io/dittobask/", description: "Ce projet a été inspiré par le mouvement des NFT, une idée d'un ami Designer/Graphiste qui a vue le jour après une conception et un petit mois de travail avec une stack : Vue.js + Tailwindcss.", alt: "Dittobask Projet NFT"}
 ];
 
 import Modale from "./Modale.vue";
+import Dittobask from "/src/assets/dittobask.webp";
+import Cyber from "/src/assets/cyber.webp";
 import {ref} from "vue";
 
 const modalClass = ref('-left-full');
