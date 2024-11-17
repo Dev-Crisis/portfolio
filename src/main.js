@@ -1,4 +1,4 @@
-import { createApp } from 'vue'
+import {createApp} from 'vue'
 import './style.css'
 import App from './App.vue'
 
@@ -30,9 +30,15 @@ carousels.forEach(carousel => {
 const menuBtn = document.getElementById('menu-btn');
 const mobileMenu = document.getElementById('mobile-menu');
 
-menuBtn.addEventListener('click', (e) => {
+menuBtn.addEventListener('click', () => {
     mobileMenu.classList.toggle('hidden');
 });
+
+mobileMenu.querySelectorAll("a").forEach((e, i) => {
+    e.addEventListener("click", () => {
+        mobileMenu.classList.toggle('hidden');
+    })
+})
 
 window.onscroll = () => {
     window.scrollY > 1 ? document.querySelector("header").classList.add("fixed") : document.querySelector("header").classList.remove("fixed");
