@@ -52,7 +52,7 @@ const closeModale = (e) => {
 <template>
   <!-- Student Path -->
   <section id="student-path" class="container mx-auto px-6 py-12 fade-in">
-    <h2 class="text-3xl font-bold text-center mb-8">Mes Experiences</h2>
+    <h2 class="text-3xl font-bold text-center mb-8">Mes Expériences</h2>
     <Modale :class="modalClass" :project="modalProject" @click.passive="(e) => closeModale(e)"/>
     <div class="border-l-2 mt-10">
       <div v-for="project in projects"
