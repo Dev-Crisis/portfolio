@@ -5,7 +5,7 @@ const projects = [
     name: 'Dittobask',
     preview: Dittobask,
     excerpt: 'Un project Vue.js Tailwind + un Designer',
-    url: "https://dev-crisis.github.io/dittobask/",
+    url: "https://dittobask.kevinbardou.fr/",
     description: "Ce projet a été inspiré par le mouvement des NFT, une idée d'un ami Designer/Graphiste qui a vue le jour après une conception et un petit mois de travail avec une stack : Vite & Vue.js + Tailwindcss.",
     alt: "Dittobask Projet NFT"
   }
