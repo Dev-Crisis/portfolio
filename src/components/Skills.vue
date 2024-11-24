@@ -5,7 +5,7 @@
 <template>
   <!-- Skills -->
   <section id="skills" class="container mx-auto px-6 py-12 fade-in">
-    <h2 class="text-3xl font-bold text-center mb-8">Mes Compétences</h2>
+    <h2 class="text-3xl font-bold text-center mb-8">Compétences</h2>
     <div class="flex flex-col md:flex-row justify-center space-y-8 md:space-y-0 md:space-x-8">
       <!-- Web Skills Carousel -->
       <div class="w-full md:w-1/2">

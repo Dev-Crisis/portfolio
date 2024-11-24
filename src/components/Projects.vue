@@ -38,7 +38,7 @@ const closeModale = (e) => {
   <Modale :class="modalClass" :project="modalProject" @click.passive="(e) => closeModale(e)"/>
   <!-- Projects -->
   <section id="projects" class="container mx-auto px-6 py-12 fade-in">
-    <h2 class="text-3xl font-bold text-center mb-8">Mes Derniers Projets</h2>
+    <h2 class="text-3xl font-bold text-center mb-8">Derniers Projets</h2>
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
       <!-- Project items here -->
       <div class="bg-white p-6 rounded shadow-md fade-in flex items-start gap-2 flex-col"
